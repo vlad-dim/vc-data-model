@@ -2795,6 +2795,15 @@ in an archive.
 }
         </pre>
 
+        <p class="note">
+Warning: The <code>termsOfUse</code> property is improperly defined within the
+<code>VerifiablePresentation</code> scoped context. This is a bug with the
+version 1 context and will be fixed in the version 2 context.
+In the meantime, implementors who wish to use this feature will be required to
+extend the context of the <a>verifiable presentation</a> in order for the term
+to be semantically recognized in a JSON-LD processor.
+        </p>
+
         <p>
 In the example above, the <a>holder</a> (the <code>assigner</code>), who is
 also the <a>subject</a>, expressed a term of use prohibiting the <a>verifier</a>
