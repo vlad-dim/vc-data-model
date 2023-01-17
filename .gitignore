@@ -1,0 +1,13 @@
+*.sw[nop]
+*~
+.DS_Store
+.idea/modules.xml
+.idea/vc-data-model.iml
+.idea/vcs.xml
+.idea/workspace.xml
+.vscode
+
+**/node_modules
+**/.DS_Store
+**/.vscode
+**/package-lock.json

@@ -1,0 +1,28 @@
+{
+  "name": "credentials-context",
+  "version": "0.0.1-0",
+  "description": "Credentials Context",
+  "main": "js",
+  "files": [
+    "contexts",
+    "js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/w3c/vc-data-model"
+  },
+  "bugs": {
+    "url": "https://github.com/w3c/vc-data-model/issues"
+  },
+  "homepage": "https://github.com/w3c/vc-data-model",
+  "dependencies": {
+    "ajv": "^8.11.0",
+    "assert": "^2.0.0",
+    "fs": "^0.0.1-security",
+    "mocha": "^10.1.0",
+    "yml2vocab": "^1.2.0"
+  },
+  "scripts": {
+    "test-schema": "mocha 'schema/**/*.js'"
+  }
+}
